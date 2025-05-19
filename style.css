@@ -3,3 +3,140 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #fdf8f2;
+  font-family: "Fraunces", "DM sans", "san-serif";
+}
+
+.nav-bar {
+  display: flex;
+  padding: 42px 88px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.action-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 48px;
+  flex: 1 0 0;
+}
+
+.cta-container-nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn {
+  color: #211f1f;
+  font-family: "DM sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.ghost {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.outline {
+  display: flex;
+  padding: 10px 18px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 200px;
+  border: 1px solid #211f1f;
+}
+
+.primary {
+  display: flex;
+  padding: 10px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 200px;
+  border: 1px solid #7f56d9;
+  background: #211f1f;
+  color: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.hero-section {
+  display: flex;
+  padding: 96px 116px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.img-pattern {
+  width: 100%;
+  padding: 0px 32px;
+}
+
+.hero-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+.hero-invisicible-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.pill {
+  display: flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: #f2f4f7;
+  color: #344054;
+  text-align: center;
+  font-family: "Dm sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.header-2xl {
+  color: #101828;
+  text-align: center;
+  font-family: "Fraunces";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 82px;
+  letter-spacing: -1.44px;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.paragraph-large {
+  color: #667085;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 60%;
+}
+
+.cta-container-hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
