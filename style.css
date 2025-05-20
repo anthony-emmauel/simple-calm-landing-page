@@ -188,3 +188,181 @@ body {
   border: 2px solid #007cc2;
   width: 100%;
 }
+
+.cta-section-yellow {
+  display: flex;
+  width: 100%;
+  padding: 96px 116px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  background: #fed501;
+}
+
+.copy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-md {
+  color: #211f1f;
+  text-align: center;
+  font-family: "Fraunces";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+.paragraph-large {
+  color: #211f1f;
+  text-align: center;
+  font-family: "DM sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 30px;
+}
+
+.cta-section-image {
+  display: flex;
+  height: 700px;
+}
+
+.lef-col-section-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-col-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 70%;
+}
+
+.pill-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.left-col-con .paragraph-large {
+  width: 100%;
+}
+
+.resource-section {
+  display: flex;
+  padding: 96px 116px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.resource-card-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 56px;
+}
+
+.resource-card,
+.text-container-resource {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.resource-card-img {
+  width: 330px;
+  height: 222px;
+}
+
+.resource-card-img-book {
+  width: 278px;
+  height: 225px;
+}
+
+.resource-card-img-podcast {
+  width: 225px;
+  height: 225px;
+}
+
+.text-container-resource {
+}
+
+.header-sm {
+  color: #211f1f;
+  text-align: center;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.paragraph-medium {
+  color: #211f1f;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 24px;
+  width: 100%;
+}
+
+.resource-card {
+  width: 33%;
+}
+
+.image-quote-section {
+  display: flex;
+  padding: 96px 116px;
+  align-items: center;
+  gap: 64px;
+  max-width: 1512px;
+  overflow-x: hidden;
+}
+
+.left-col-image-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 50%;
+}
+
+.img-quote {
+  width: 100%;
+  height: 592px;
+}
+
+.icon-image-quotes {
+  width: 56px;
+  height: 56px;
+}
+
+.header-s {
+  color: #101828;
+  font-family: "Fraunces";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: -0.72px;
+}
+
+.left-col-image-quote .primary {
+  width: 30%;
+}
+
+.feature-section {
+}
