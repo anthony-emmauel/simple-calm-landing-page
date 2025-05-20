@@ -140,3 +140,51 @@ body {
   align-items: flex-start;
   gap: 12px;
 }
+
+.qoute-section {
+  display: flex;
+  padding: 96px 116px;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 50%;
+}
+
+.icon-quote {
+  width: 40px;
+  height: 40px;
+}
+
+.line {
+  border: 2px solid #de5217;
+  width: 100%;
+}
+
+.header-xl {
+  color: #211f1f;
+  font-family: "Fraunces";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 72px;
+  letter-spacing: -1.28px;
+}
+
+.red-quotes {
+  align-self: start;
+}
+
+.blue-quotes {
+  padding-top: 136px;
+}
+
+.blue-quotes .line {
+  border: 2px solid #007cc2;
+  width: 100%;
+}
