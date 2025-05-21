@@ -365,4 +365,63 @@ body {
 }
 
 .feature-section {
+  display: flex;
+  padding: 96px 116px;
+  align-items: center;
+  gap: 64px;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.text-container-feature-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.header-xs {
+  color: #101828;
+  text-align: center;
+  font-family: Fraunces;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+  width: 40%;
+}
+
+.blue-1con {
+  width: 70%;
+}
+
+.paragraph-small {
+  color: #667085;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 80%;
+}
+
+.newsletter-date-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter {
+  display: flex;
+  padding: 64px;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
 }
