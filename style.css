@@ -366,7 +366,7 @@ body {
 
 .feature-section {
   display: flex;
-  padding: 96px 116px;
+  padding: 96px 116px 192px;
   align-items: center;
   gap: 64px;
 }
@@ -416,12 +416,195 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .newsletter {
   display: flex;
-  padding: 64px;
+  gap: 64px;
+  justify-content: center;
+  padding: 40px;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+  position: absolute;
+  top: -80px;
+}
+
+.newsletter .header-xs {
+  text-align: left;
+  width: 50%;
+}
+
+.form-cta-group {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+}
+
+.form-placeholder {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+input[type="email"] {
+  display: flex;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  width: 100%;
+  color: #211f1f;
+  font-family: "DM sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 24px;
+}
+
+.placeholder-form {
+  color: #211f1f;
+  /* Text sm/Normal */
+  font-family: "Dm sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 20px;
+}
+
+.privacy-link {
+  color: #211f1f;
+  font-family: "Dm sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+}
+
+.date {
+  display: flex;
+  gap: 112px;
+  padding: 212px 116px 96px;
+  background-color: #211f1f;
+  width: 100%;
+  justify-content: center;
+}
+
+.left-date-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.date-container-left {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
+  gap: 12px;
+}
+
+.header-l {
+  color: #a4c14d;
+  font-family: "Fraunces";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -1.2px;
+}
+
+.paragraph-md-large {
+  color: #fff;
+  font-family: "Dm sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.btn-icon {
+  display: flex;
+  padding: 8px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 200px;
+  border: 1px solid #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  background-color: #211f1f;
+  color: #fff;
+  width: 30%;
+}
+
+.right-date-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+}
+
+.right-date-info .header-l {
+  color: #fff;
+}
+
+.invite-friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  padding: 96px 116px;
+}
+
+.container-text-invite {
+  display: flex;
+  padding: 0px 32px;
+  flex-direction: column;
+  align-items: center;
   gap: 32px;
-  align-self: stretch;
+}
+
+.invite-img {
+  width: 600px;
+  height: 596px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  padding: 64px 116px 48px;
+  background-color: #211f1f;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.action-container-footer-link {
+  display: flex;
+  gap: 32px;
+}
+
+.btn—ghost-footer-action {
+  color: #fff;
+  font-family: "Dm sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.Logo-footer {
 }
