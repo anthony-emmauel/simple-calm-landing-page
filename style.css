@@ -606,5 +606,37 @@ input[type="email"] {
   line-height: 24px;
 }
 
-.Logo-footer {
+.footer svg path {
+  fill: #fff;
+}
+
+.footer-bottom-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 32px;
+}
+
+.footer-divider {
+  border: 1px solid #475467;
+  width: 100%;
+}
+
+.footer-content-social-icon {
+  display: flex;
+  align-self: stretch;
+  gap: 32px;
+}
+
+.footer-content-social-icon .paragraph-medium {
+  color: #fff;
+  text-align: left;
+  width: 70%;
+}
+
+.social-icon-group {
+  display: flex;
+  gap: 24px;
+  width: 30%;
+  justify-content: flex-end;
 }
