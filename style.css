@@ -643,11 +643,75 @@ input[type="email"] {
 }
 
 @media (max-width: 1194px) {
+  main {
+    overflow-x: hidden;
+  }
   .nav-bar {
     gap: 4px;
   }
 
   .action-container {
     gap: 32px;
+  }
+
+  .right-col-section-image-img {
+    width: 50%;
+  }
+
+  .left-col-image-quote {
+    width: 50%;
+  }
+
+  .img-quote-con {
+    width: 50%;
+  }
+
+  .left-col-image-quote .primary {
+    width: 50%;
+  }
+  .left-date-info,
+  .right-date-info {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1155px) {
+  main {
+    overflow-x: hidden;
+  }
+
+  .left-date-info,
+  .right-date-info {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1111px) {
+  main {
+    overflow-x: hidden;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .newsletter {
+    gap: 48px;
+    justify-content: space-around;
+  }
+
+  .newsletter .header-xs {
+    width: 40%;
+  }
+
+  .left-date-info,
+  .right-date-info {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .btn {
+    font-size: 12px;
   }
 }
