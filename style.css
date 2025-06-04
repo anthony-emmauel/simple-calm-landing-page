@@ -641,3 +641,13 @@ input[type="email"] {
   width: 30%;
   justify-content: flex-end;
 }
+
+@media (max-width: 1194px) {
+  .nav-bar {
+    gap: 4px;
+  }
+
+  .action-container {
+    gap: 32px;
+  }
+}
